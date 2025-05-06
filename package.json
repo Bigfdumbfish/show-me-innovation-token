@@ -1,0 +1,15 @@
+{
+  "name": "smi-token-site",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+"scripts": {
+  "dev": "vite",
+  "build": "vite build && npm run postbuild",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "postbuild": "copy dist\\index.html dist\\404.html"
+}
+
+}

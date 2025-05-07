@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar";
 import Home from "./Home";
 import AirdropForm from "./AirdropForm";
 import DAO from "./DAO";
@@ -9,6 +10,7 @@ import ThankYou from "./ThankYou";
 export default function App() {
   return (
     <BrowserRouter basename="/show-me-innovation-token">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/airdrop" element={<AirdropForm />} />

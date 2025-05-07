@@ -16,14 +16,6 @@ export default function Home() {
           Powering Missouri-based STEM research, advanced materials, and
           innovation through decentralized funding and transparent governance.
         </p>
-
-        {/* Navigation Links */}
-        <nav className="space-x-4">
-          <Link to="/airdrop" className="text-blue-600 underline">Airdrop</Link>
-          <Link to="/dao" className="text-blue-600 underline">DAO</Link>
-          <Link to="/transparency" className="text-blue-600 underline">Transparency</Link>
-          <Link to="/apply" className="text-blue-600 underline">Apply</Link>
-        </nav>
       </section>
 
       <section className="bg-gray-100 py-16 px-4">
